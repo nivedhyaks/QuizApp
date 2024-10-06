@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  header {
+    background-color: #c39727;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .quiz-container {
+    margin: 20px auto;
+    max-width: 600px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .question-card {
+    margin-bottom: 20px;
+  }
+  
+  /* button {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #c3b412;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #aaa820;
+  } */
+  
+  .options {
+    margin: 10px 0;
+  }
+  
+  label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  /* button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #b0a31d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #b9b114;
+  }
+   */
+  /* .navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #bba70e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  } */
+  
+  button:disabled {
+    background-color: #aaac16;
+    cursor: not-allowed;
+  }
+  
+  button:hover:enabled {
+    background-color: #d6d31c;
+  }
+  
+  .navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #f0b606;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  button:hover:enabled {
+    background-color: #75450c;
+  }
+  
+  .result {
+    text-align: center;
+  }
+  
+  .result h2 {
+    margin-bottom: 20px;
+  }
+  
+  .result p {
+    font-size: 1.5rem;
+}
